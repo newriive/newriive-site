@@ -7,9 +7,25 @@ export const metadata = {
   title: 'Newriive',
   description: 'Tools, guidance, and community — designed for immigrants.',
   icons: {
-    icon: '/favicon.png', // or '/favicon.ico'
+    icon: '/favicon.png',
+  },
+  openGraph: {
+    title: 'Newriive',
+    description: 'Empowering immigrants through tools and support.',
+    url: 'https://newriive.com',
+    siteName: 'Newriive',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Newriive preview',
+      },
+    ],
+    type: 'website',
   },
 }
+
 
 
 export default function RootLayout({ children }: { children: ReactNode }) {
