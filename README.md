@@ -38,7 +38,7 @@ You can begin editing the site from `app/page.tsx`. The page auto-updates as you
 - **Tailwind CSS**
 - **TypeScript**
 - **ESLint**
-- **Geist Font** via `next/font`
+- **Lucide React** (Icon Library)
 - **Vercel** (Deployment)
 
 ---
@@ -48,7 +48,8 @@ You can begin editing the site from `app/page.tsx`. The page auto-updates as you
 ```
 .
 ├── app/              # App directory with routing
-├── public/           # Static assets (e.g., favicon.png)
+├── components/       # Reusable UI components
+├── public/           # Static assets (e.g., favicon.png, og-image.png)
 ├── styles/           # Global styles with Tailwind
 ├── .github/          # GitHub-specific files (e.g., PR templates)
 ├── .editorconfig     # Editor configuration
@@ -72,8 +73,8 @@ You can begin editing the site from `app/page.tsx`. The page auto-updates as you
 - [x] Project scaffolding
 - [x] Tailwind + ESLint + TypeScript setup
 - [x] PR template
-- [ ] Landing layout
-- [ ] Mission & CTA section
+- [x] Landing layout
+- [x] Mission & CTA section
 - [ ] Deploy to Vercel
 
 ---
