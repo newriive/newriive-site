@@ -11,10 +11,14 @@ export default function Navbar() {
         </Link>
         <ul className="flex space-x-6 text-gray-700 text-sm font-medium">
           <li>
-            <Link href="/about" className="hover:text-[#2BB3A3] transition">About</Link>
+            <Link href="/about" className="hover:text-[#2BB3A3] transition">
+              About
+            </Link>
           </li>
           <li>
-            <Link href="/join" className="hover:text-[#2BB3A3] transition">Join</Link>
+            <Link href="/join" className="hover:text-[#2BB3A3] transition">
+              Join
+            </Link>
           </li>
         </ul>
       </nav>
