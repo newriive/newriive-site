@@ -39,7 +39,6 @@ You can begin editing the site from `app/page.tsx`. The page auto-updates as you
 - **TypeScript**
 - **ESLint**
 - **Lucide React** (Icon Library)
-- **Vercel** (Deployment)
 
 ---
 
@@ -75,6 +74,7 @@ You can begin editing the site from `app/page.tsx`. The page auto-updates as you
 - [x] PR template
 - [x] Landing layout
 - [x] Mission & CTA section
+- [x] Email Signup component
 - [ ] Deploy to Vercel
 
 ---
