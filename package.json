@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "npm run build && aws s3 sync ./out s3://newriive-site --delete"
   },
   "dependencies": {
     "lucide-react": "^0.513.0",

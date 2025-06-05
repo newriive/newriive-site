@@ -30,7 +30,7 @@ export default function EmailSignup() {
         <h2 className="text-2xl font-semibold mb-4">Stay in the loop</h2>
 
         {submitted ? (
-          <p className="text-green-600">Thanks! You're subscribed.</p>
+          <p className="text-green-600">Thanks! You&apos;re subscribed.</p>
         ) : (
           <form
             onSubmit={handleSubmit}

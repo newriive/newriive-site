@@ -24,6 +24,7 @@ export const metadata = {
     ],
     type: 'website',
   },
+  metadataBase: new URL('https://newriive.com'),
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
