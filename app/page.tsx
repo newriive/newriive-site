@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero'
 import ProblemSolution from '@/components/ProblemSolution'
 import ComingSoon from '@/components/ComingSoon'
-import CallToAction from '@/components/CallToAction'
+// import CallToAction from '@/components/CallToAction'
 import EmailSignup from '@/components/EmailSignup'
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <ProblemSolution />
       <ComingSoon />
       <EmailSignup />
-      <CallToAction />
+      {/* <CallToAction /> */}
     </main>
   )
 }
