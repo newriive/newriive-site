@@ -1,7 +1,7 @@
-import '@/styles/globals.css';
-import Footer from '@/components/Footer';
+import '@/styles/globals.css'
+import Footer from '@/components/Footer'
 import { ReactNode } from 'react'
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
   title: 'Newriive',
@@ -24,9 +24,8 @@ export const metadata = {
     ],
     type: 'website',
   },
+  metadataBase: new URL('https://newriive.com'),
 }
-
-
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
